@@ -61,7 +61,8 @@ header {
 .links li {
     display: flex;
     align-items: center;
-    justify-content: start;    
+    justify-content: start; 
+    cursor: pointer;   
 }
 
 .links ul {
