@@ -10,3 +10,6 @@ document.getElementById("whatsapp-icon").addEventListener("click", function( eve
 document.getElementById("github-icon").addEventListener("click", function( event ) {
   window.open("https://github.com/raulmu");
 }, false);
+document.getElementById("linkedin-icon").addEventListener("click", function( event ) {
+  window.open("https://www.linkedin.com/in/rauluhlmann");
+}, false);
