@@ -1,0 +1,11 @@
+.card-body {
+    background-color: #666;
+    color: #ddd;
+}
+
+.btn-primary {
+    color: #666;
+    background-color: #fd4;
+    border-color: #fd4;
+}
+

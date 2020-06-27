@@ -1,3 +1,5 @@
+// menu click event buttons
+
 document.getElementById("twitter-icon").addEventListener("click", function( event ) {
     window.open('https://twitter.com/rauluhlmann')
   }, false);
@@ -13,3 +15,23 @@ document.getElementById("github-icon").addEventListener("click", function( event
 document.getElementById("linkedin-icon").addEventListener("click", function( event ) {
   window.open("https://www.linkedin.com/in/rauluhlmann");
 }, false);
+
+
+// simple way to show/hide button based on scrollTop
+
+let showGoToTopButton = $(window).scrollTop() > 0 ? true : false;
+
+if(showGoToTopButton){
+  $("#backtotop").show();
+} else {
+  $("#backtotop").hide();
+}
+
+$(window).scroll((e) => {
+  showGoToTopButton = $(window).scrollTop() > 0 ? true : false;
+  if(showGoToTopButton){
+    $("#backtotop").show();
+  } else {
+    $("#backtotop").hide();
+  }
+});

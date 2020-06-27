@@ -15,4 +15,4 @@ Hi! I'm **Raul Uhlmann**. This is the code of my personal website hosted at gith
 - Github
 
 ## Personal website
-- https://raulmu.github.io
+- https://raul.seve.com.br
